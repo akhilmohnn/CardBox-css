@@ -22,7 +22,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 25px;
+    gap: 20px;
 
     }
 .card img{
@@ -49,8 +49,53 @@
     background-color: rgb(101, 154, 156);
     border-radius: 10px;
 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 } 
 
+.leftBox{
+    /*width:fit-content; */ 
+    display: flex;
+    gap: 15px;
+    height: 100%;
+
+    align-items: center;
+
+
+}
+
+.rightBox{
+    padding-right: 20px;
+    
+
+}
+
+.imgBox img{
+    padding-top: 2px;
+    border-radius: 10px;
+    padding-left: 2px;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: transparent; /* Ensure transparency */
+    display: block;
+}
+
+#paymentButton{
+    width: 80%;
+    height: 8%;
+    background-color: rgb(72, 108, 109);
+    border-radius: 10px;
+    box-shadow: 0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+
+}
+
+.cancelOrder a{
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+    font-weight: bold   ;
+}
 
 
 
