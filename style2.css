@@ -1,0 +1,57 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 14%, rgba(27,64,71,1) 100%);
+    }
+.card{
+    height: 480px;
+    width: 350px;
+    background-color: aliceblue;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+
+    }
+.card img{
+    width: 100%;
+    height: 30%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+
+    }
+
+.textbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /*This aligns the items to center*/
+    text-align: center;  /*Text in the div still be in left aliged,so made it center aligned*/
+    gap: 10px;
+    width: 75%;
+    
+}   
+#amountBox{
+    width: 80%;
+    height: 10%;
+    background-color: rgb(101, 154, 156);
+    border-radius: 10px;
+
+} 
+
+
+
+
+    
